@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 const conn = mysql.createPool({
-    connectionLimit : "INTEGER_FOR_LIMIT",
+    connectionLimit : INTEGER_FOR_LIMIT,
     host : 'HOST_IP_ADDR',
     user : 'DATABASE_USERNAME',
     password : 'PASSWORD',
